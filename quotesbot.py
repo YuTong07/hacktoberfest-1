@@ -68,6 +68,10 @@ while True:
       feelings_list.append("lost")
       quotes_list.append("It's normal to be confused, take things slow and think things out")
       counter += 1
+    if each_word == "sick":
+      feelings_list.append("sick")
+      quotes_list.append("don't be scared, see a doctor to prevent any dangers")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
