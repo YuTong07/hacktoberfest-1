@@ -64,6 +64,11 @@ while True:
       feelings_list.append("jealous")
       quotes_list.append("jealousy is counting other's blessings instead of your own. Don't be jealous of others")
       counter += 1  
+    if each_word == "lost":
+      feelings_list.append("lost")
+      quotes_list.append("it's normal to be confused, take time to think things through, I believe in you!")
+      counter += 1 
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
